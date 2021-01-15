@@ -1,4 +1,6 @@
+
 <head>
+
 <style>
 table, td, th
 {
@@ -11,9 +13,13 @@ border-collapse:collapse;
 table { margin: auto; }
 input { text-align:left; }
 </style>
+
+
+
 <script type="text/javascript">
 function calc(clicked_id)
 {
+console.log(clicked_id);
 var val1 = parseFloat(document.getElementById("value1").value);
 var val2 = parseFloat(document.getElementById("value2").value);
 if(isNaN(val1)||isNaN(val2))
@@ -35,7 +41,9 @@ answer.value="";
 }
 </script>
 </head>
+
 <body>
+
 <table>
 <tr><th colspan="4"> SIMPLE CALCULATOR </th></tr>
 <tr><td>value1</td><td><input type="text" id="value1" value="0"/></td>
@@ -49,6 +57,7 @@ onclick="calc(this.id)"/></td>
 onclick="calc(this.id)"/></td>
 <td><input type="button" value="Division" id ="div"
 onclick="calc(this.id)"/></td></tr>
+
 <tr><td>Answer:</td><td> <input type="text" id="answer" value=""
 disabled/></td>
 <td colspan="2"><input type="button" value="CLEAR ALL"
