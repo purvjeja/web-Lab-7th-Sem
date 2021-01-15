@@ -20,6 +20,7 @@ if($ins)
 echo "
 <script>
 alert('Inserted Successfully');
+window.location.href='Program10(sorting).php';
 </script>
 ";
 }
