@@ -33,3 +33,6 @@
   d. Search for a word in states that ends in a. Store this word in element 3 of the list.<br />
 
 10. Write a PHP program to sort the student records which are stored in the database using selection sort.
+
+## Note
+- For 10th Program, Import Program10.sql file in mysql after creating database, then make sure about the database connections in php files and then execute, then program will run Successfully. 
